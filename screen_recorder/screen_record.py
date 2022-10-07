@@ -13,14 +13,14 @@ dim = (width,height)
 
 f = cv2.VideoWriter_fourcc(*"XVID")
 
-output = cv2.VideoWriter("C:/Users/rajeevmahajan/Desktop/test.mp4",f,30.0,dim)
+output = cv2.VideoWriter("C:/Users/rajeevmahajan/Desktop/test.mp4",f,30.0,dim)   # 30 is the no of frames per second, can be changed
 
-now_start_time = time.time()
+now_start_time = time.time()   # Time right now
 
 # Give duration in seconds for which screen is to be recorded
 duration = 10
 
-end_time = now_start_time+duration
+end_time = now_start_time+duration  # End time is current time+ duration
 
 while True:
     image = pyautogui.screenshot()
