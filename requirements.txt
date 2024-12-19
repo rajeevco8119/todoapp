@@ -3,7 +3,7 @@ datetime==4.3
 os
 googlesearch==1.0.2
 selenium==3.141.0
-requests==2.23.0
+requests==2.31.0
 math==0.0.0
 wikipedia==1.4.0
 googletrans==2.4.0
